@@ -1,0 +1,21 @@
+name: profile_prototype
+description: "It is to teach students about the basics of flutter app design. The reference figma design is here: https://www.figma.com/design/27nCBiUxVcVHSoF8LPzq5c/Figma-Basics?node-id=0-495&node-type=frame&t=QLk8qcIYcCYZSgVh-0"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_staggered_grid_view: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - asset/image/
