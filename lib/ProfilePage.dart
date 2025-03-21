@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:profile_prototype/DataBasePage.dart';
 
 class ProfilePage extends StatelessWidget {
   const ProfilePage({super.key});
@@ -62,7 +63,19 @@ class ProfilePage extends StatelessWidget {
               ),
 
             ],
-          )
+          ),
+          Center(
+            child: ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (context) => DatabasePage(),
+                  ),
+                );
+              },
+              child: Text("Click Me"),
+            ),
+          ),
         ],
       ),
     );
